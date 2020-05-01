@@ -102,7 +102,7 @@
             "chnort1": "Switzerland North",
             "chwest1": "Switzerland West",
             "nowest1": "Norway West",
-            "noeast1": "\u200bNorway East",
+            "noeast1": "\u00e2\u20ac\u2039Norway East",
             "escent1": "Spain Central",
             "aseast1": "East Asia",
             "assoea1": "Southeast Asia",
@@ -196,6 +196,19 @@
             "core": "Core Services Platform"
         }
     },
+    "applicationName": {
+        "category": "Custom",
+        "entity": "applicationName",
+        "scope": "global",
+        "maxlength": "12",
+        "rule": "az",
+        "allowed_values": {
+            "mysql": "MySql",
+            "apache": "Apache",
+            "ssh": "Secure Shell",
+            "docker": "Docker"
+        }
+    },
     "serviceName": {
         "category": "Custom",
         "entity": "serviceName",
@@ -203,7 +216,8 @@
         "maxlength": "12",
         "rule": "az",
         "allowed_values": {
-            "webesp": "Esp for Accurint Web"
+            "webesp": "Esp for Accurint Web",
+            "mono": "Monolith"
         }
     },
     "productName": {

@@ -33,8 +33,8 @@
             "scope": "global",
             "maxlength": "63",
             "rule": "a-9",
-            "convention": "",
-            "example": ""
+            "convention": "<rba.productName>-<rba.environment>-postgres##",
+            "example": "tfe-prod-postgres01"
         },
         {
             "category": "Sql",
@@ -872,8 +872,8 @@
             "scope": "resource group",
             "maxlength": "64",
             "rule": "a-9",
-            "convention": "",
-            "example": ""
+            "convention": "<rba.productName>-<rba.serviceName>-<rba.applicationName>##",
+            "example": "tfe-mono-docker01"
         }
     ],
     "virtualMachineScaleSets": [
@@ -2296,8 +2296,8 @@
             "scope": "resource group",
             "maxlength": "80",
             "rule": "a-9",
-            "convention": "",
-            "example": ""
+            "convention": "<rba.productName>-<rba.serviceName>-<rba.applicationName>-<rba.environment>##-<rba.subnetType>-interface##",
+            "example": "tfe-mono-docker-prod01-iaas-public-interface01"
         }
     ],
     "networkSecurityGroups": [

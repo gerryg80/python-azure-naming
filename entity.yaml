@@ -25,8 +25,8 @@ servers:
     scope: global
     maxlength: '63'
     rule: a-9
-    convention: ''
-    example: ''
+    convention: <rba.productName>-<rba.environment>-postgres##
+    example: tfe-prod-postgres01
 -   category: Sql
     entity: servers
     scope: global
@@ -637,8 +637,8 @@ virtualMachines:
     scope: resource group
     maxlength: '64'
     rule: a-9
-    convention: ''
-    example: ''
+    convention: <rba.productName>-<rba.serviceName>-<rba.applicationName>##
+    example: tfe-mono-docker01
 virtualMachineScaleSets:
 -   category: Compute
     entity: virtualMachineScaleSets
@@ -1684,8 +1684,8 @@ networkInterfaces:
     scope: resource group
     maxlength: '80'
     rule: a-9
-    convention: ''
-    example: ''
+    convention: <rba.productName>-<rba.serviceName>-<rba.applicationName>-<rba.environment>##-<rba.subnetType>-interface##
+    example: tfe-mono-docker-prod01-iaas-public-interface01
 networkSecurityGroups:
 -   category: Network
     entity: networkSecurityGroups

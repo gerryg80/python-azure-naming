@@ -25,6 +25,15 @@ This information is meant to be a living source of truth for applications and po
 
 
 RBA entities are variables and allowed values that describe our business and purpose at RBA and are the only approved values to be used in names and tags. This assures consistency and data integrity across all resources being named and tagged in Azure.  If you would like to add additional allowed values, simply open an issue request against this repo and upon review the value will be added. 
+## rba.applicationName
+
+|<sub>Full Text</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Value</sub>|
+| ------ | ------ | ------ | ------ |
+|<sub>MySql</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>mysql</sub>|
+|<sub>Apache</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>apache</sub>|
+|<sub>Secure Shell</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>ssh</sub>|
+|<sub>Docker</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>docker</sub>|
+
 ## rba.azureRegion
 
 |<sub>Full Text</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Value</sub>|
@@ -62,7 +71,7 @@ RBA entities are variables and allowed values that describe our business and pur
 |<sub>Switzerland North</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>chnort1</sub>|
 |<sub>Switzerland West</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>chwest1</sub>|
 |<sub>Norway West</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>nowest1</sub>|
-|<sub>​Norway East</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>noeast1</sub>|
+|<sub>â€‹Norway East</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>noeast1</sub>|
 |<sub>Spain Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>escent1</sub>|
 |<sub>East Asia</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>aseast1</sub>|
 |<sub>Southeast Asia</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>assoea1</sub>|
@@ -174,6 +183,7 @@ RBA entities are variables and allowed values that describe our business and pur
 |<sub>Full Text</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Value</sub>|
 | ------ | ------ | ------ | ------ |
 |<sub>Esp for Accurint Web</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>webesp</sub>|
+|<sub>Monolith</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>mono</sub>|
 
 ## rba.subnetType
 
@@ -357,7 +367,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 |<sub>images</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>snapshots</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualMachineScaleSets</sub>|<sub>resource group</sub>|<sub>a-9[64]</sub>|<sub></sub>|<sub></sub>|
-|<sub>virtualMachines</sub>|<sub>resource group</sub>|<sub>a-9[64]</sub>|<sub></sub>|<sub></sub>|
+|<sub>virtualMachines</sub>|<sub>resource group</sub>|<sub>a-9[64]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.serviceName[12]](README.md#rbaserviceName)>-<[rba.applicationName[12]](README.md#rbaapplicationName)>##</sub>|<sub>tfe-mono-docker01</sub>|
 
 ## azure.ContainerInstance
 
@@ -432,7 +442,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
-|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
+|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>-postgres##</sub>|<sub>tfe-prod-postgres01</sub>|
 |<sub>databases</sub>|<sub>servers</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
 |<sub>firewallRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualNetworkRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
@@ -643,7 +653,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 |<sub>loadBalancers</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.serviceName[12]](README.md#rbaserviceName)>-<[rba.environment[7]](README.md#rbaenvironment)>-loadbalancer<##></sub>|<sub>webesp-prod-loadbalancer01</sub>|
 |<sub>inboundNatRules</sub>|<sub>load balancer</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>localNetworkGateways</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.onPrem[16]](README.md#rbaonPrem)>-<[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-local-network-gateway</sub>|<sub>bocab1-accurint-nonprod-local-network-gateway</sub>|
-|<sub>networkInterfaces</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
+|<sub>networkInterfaces</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.serviceName[12]](README.md#rbaserviceName)>-<[rba.applicationName[12]](README.md#rbaapplicationName)>-<[rba.environment[7]](README.md#rbaenvironment)>##-<[rba.subnetType[24]](README.md#rbasubnetType)>-interface##</sub>|<sub>tfe-mono-docker-prod01-iaas-public-interface01</sub>|
 |<sub>networkSecurityGroups</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.resourceGroupType[12]](README.md#rbaresourceGroupType)>-<[rba.productName[16]](README.md#rbaproductName)>-<[rba.subnetType[24]](README.md#rbasubnetType)>-security-group</sub>|<sub>app-accurintle-private-security-group</sub>|
 |<sub>securityRules</sub>|<sub>network security group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>networkWatchers</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|

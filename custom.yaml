@@ -177,6 +177,17 @@ productGroup:
     bridger: 'Bridger Delivery Platform'
     iyetek: 'Iyetek Delivery Platform'
     core: 'Core Services Platform'
+applicationName:
+  category: Custom
+  entity: applicationName
+  scope: global
+  maxlength: '12'
+  rule: 'az'
+  allowed_values:
+    mysql: 'MySql'
+    apache: 'Apache'
+    ssh: 'Secure Shell'
+    docker: 'Docker'
 serviceName:
   category: Custom
   entity: serviceName
@@ -185,6 +196,7 @@ serviceName:
   rule: 'az'
   allowed_values:
     webesp: 'Esp for Accurint Web'
+    mono: 'Monolith'
 productName:
   category: Custom
   entity: productName
