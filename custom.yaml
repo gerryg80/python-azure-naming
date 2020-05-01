@@ -184,7 +184,6 @@ applicationName:
   maxlength: '12'
   rule: 'az'
   allowed_values:
-    mysql: 'MySql'
     apache: 'Apache'
     ssh: 'Secure Shell'
     docker: 'Docker'
