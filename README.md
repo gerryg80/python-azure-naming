@@ -424,7 +424,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
-|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
+|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>-mariadb##</sub>|<sub>tfe-prod-mariadb01</sub>|
 |<sub>databases</sub>|<sub>servers</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
 |<sub>firewallRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualNetworkRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
@@ -433,7 +433,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
-|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
+|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>-mysql##</sub>|<sub>tfe-prod-mysql01</sub>|
 |<sub>databases</sub>|<sub>servers</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
 |<sub>firewallRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualNetworkRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|

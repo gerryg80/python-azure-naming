@@ -15,8 +15,8 @@
             "scope": "global",
             "maxlength": "63",
             "rule": "a-9",
-            "convention": "",
-            "example": ""
+            "convention": "<rba.productName>-<rba.environment>-mariadb##",
+            "example": "tfe-prod-mariadb01"
         },
         {
             "category": "DBforMySQL",
@@ -24,8 +24,8 @@
             "scope": "global",
             "maxlength": "63",
             "rule": "a-9",
-            "convention": "",
-            "example": ""
+            "convention": "<rba.productName>-<rba.environment>-mysql##",
+            "example": "tfe-prod-mysql01"
         },
         {
             "category": "DBforPostgreSQL",
