@@ -33,8 +33,8 @@
             "scope": "global",
             "maxlength": "63",
             "rule": "a-9",
-            "convention": "<rba.productName>-<rba.environment>-postgres##",
-            "example": "tfe-prod-postgres01"
+            "convention": "<rba.productName>-<rba.environment>##",
+            "example": "tfe-prod01"
         },
         {
             "category": "Sql",
