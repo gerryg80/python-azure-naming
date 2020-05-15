@@ -1,0 +1,17 @@
+  
+{
+    "market": {
+        "category": "Custom",
+        "entity": "market",
+        "scope": "global",
+        "maxlength": "2",
+        "rule": "az",
+        "allowed_values": {
+            "us": "United States",
+            "uk": "United Kingdom",
+            "in": "India",
+            "br": "Brazil",
+            "cn": "China"
+        }
+    }
+}
