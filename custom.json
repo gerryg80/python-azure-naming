@@ -230,6 +230,7 @@
             "accurintweb": "Accurint Web Product",
             "accurintapi": "Accurint API Product",
             "accurintle": "Accurint for Law Enforcement",
+            "hashicorpvault": "HashiCorp Vault",
             "tfe": "Terraform Enterprise"
         }
     },
