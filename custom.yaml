@@ -127,6 +127,7 @@ subscriptionType:
   allowed_values:
     production: 'Production'
     nonprod: 'Non-Production'
+    dev: 'Development'
 resourceGroupType:
   category: Custom
   entity: resourceGroupType
@@ -177,6 +178,7 @@ productGroup:
     bridger: 'Bridger Delivery Platform'
     iyetek: 'Iyetek Delivery Platform'
     core: 'Core Services Platform'
+    hpcc: 'HPCC Systems'
 applicationName:
   category: Custom
   entity: applicationName
@@ -208,6 +210,7 @@ productName:
     accurintle: 'Accurint for Law Enforcement'
     hashicorpvault: 'HashiCorp Vault'
     tfe: 'Terraform Enterprise'
+    hpcc: 'HPCC Systems'
 tagName:
   category: Custom
   entity: tagName
