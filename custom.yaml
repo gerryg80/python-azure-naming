@@ -211,6 +211,7 @@ productName:
     hashicorpvault: 'HashiCorp Vault'
     tfe: 'Terraform Enterprise'
     hpcc: 'HPCC Systems'
+    budgetalerts: 'Azure Budget Alerts'
 tagName:
   category: Custom
   entity: tagName
