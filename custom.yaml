@@ -212,6 +212,7 @@ productName:
     tfe: 'Terraform Enterprise'
     hpcc: 'HPCC Systems'
     budgetalerts: 'Azure Budget Alerts'
+    idamapr: 'ID Analytics MapReduce'
 tagName:
   category: Custom
   entity: tagName
@@ -245,3 +246,4 @@ costCenter:
     st113: 'Cloud Build Infrastructure'
     st114: 'Cloud Build Linking'
     ct674: 'Ola Osunkoya Cost Center'
+    ic301: 'ID Analytics'
