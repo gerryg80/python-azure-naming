@@ -179,6 +179,7 @@ productGroup:
     iyetek: 'Iyetek Delivery Platform'
     core: 'Core Services Platform'
     hpcc: 'HPCC Systems'
+    networks: 'Core Networking'
 applicationName:
   category: Custom
   entity: applicationName
@@ -214,6 +215,7 @@ productName:
     hpcc: 'HPCC Systems'
     budgetalerts: 'Azure Budget Alerts'
     idamapr: 'ID Analytics MapReduce'
+    expressroute: 'Azure Express Route'
 tagName:
   category: Custom
   entity: tagName
