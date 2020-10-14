@@ -209,6 +209,7 @@ productName:
     accurintapi: 'Accurint API Product'
     accurintle: 'Accurint for Law Enforcement'
     hashicorpvault: 'HashiCorp Vault'
+    terraform: 'Terraform'
     tfe: 'Terraform Enterprise'
     hpcc: 'HPCC Systems'
     budgetalerts: 'Azure Budget Alerts'
