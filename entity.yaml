@@ -1812,8 +1812,8 @@ virtualnetworks/subnets:
     scope: virtual network
     maxlength: '80'
     rule: a-9
-    convention: <rba.subnetType>-subnet<##>
-    example: private-subnet01
+    convention: <rba.subnetType>
+    example: iaas-private
 virtualNetworks/virtualNetworkPeerings:
 -   category: Network
     entity: virtualNetworkPeerings
