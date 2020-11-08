@@ -218,6 +218,7 @@ productName:
     idamapr: 'ID Analytics MapReduce'
     expressroute: 'Azure Express Route'
     prarchangel: 'Public Records Arch Angel'
+    coplogicsftp: 'Coplogic SFTP'
 tagName:
   category: Custom
   entity: tagName
