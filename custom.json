@@ -230,7 +230,6 @@
             "accurintweb": "Accurint Web Product",
             "accurintapi": "Accurint API Product",
             "accurintle": "Accurint for Law Enforcement",
-            "coplogicsftp": "Coplogic SFTP",
             "hashicorpvault": "HashiCorp Vault",
             "tfe": "Terraform Enterprise"
         }
