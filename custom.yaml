@@ -177,6 +177,7 @@ productGroup:
     accurint: 'Accurint Delivery Platform'
     bridger: 'Bridger Delivery Platform'
     iyetek: 'Iyetek Delivery Platform'
+    coplogicsolutions: 'Coplogic Solutions Delivery Platform'
     core: 'Core Services Platform'
     hpcc: 'HPCC Systems'
     networks: 'Core Networking'
@@ -218,6 +219,7 @@ productName:
     idamapr: 'ID Analytics MapReduce'
     expressroute: 'Azure Express Route'
     prarchangel: 'Public Records Arch Angel'
+    coplogicsftp: 'Coplogic SFTP'
 tagName:
   category: Custom
   entity: tagName
