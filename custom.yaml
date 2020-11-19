@@ -118,6 +118,12 @@ azureRegion:
     aecent1: 'UAE Central'
     aenort1: 'UAE North'
     qacent1: 'Qatar Central'
+    usgovvirginia: 'US Government Virginia'
+    usgoviowa: 'US Government Iowa'
+    usdodeast: 'US DOD East'
+    usdodcentral: 'US DOD Central'
+    usgovtexas: 'US Government Texas'
+    usgovarizona: 'US Government Arizona'
 subscriptionType:
   category: Custom
   entity: subscriptionType
