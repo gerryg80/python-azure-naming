@@ -57,7 +57,7 @@ azureRegion:
   category: Custom
   entity: azureRegion
   scope: global
-  maxlength: '13'
+  maxlength: '20'
   rule: 'az'
   allowed_values:
     eastasia: 'East Asia'
