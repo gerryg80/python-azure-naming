@@ -29,7 +29,6 @@ RBA entities are variables and allowed values that describe our business and pur
 
 |<sub>Full Text</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Value</sub>|
 | ------ | ------ | ------ | ------ |
-|<sub>MySql</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>mysql</sub>|
 |<sub>Apache</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>apache</sub>|
 |<sub>Secure Shell</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>ssh</sub>|
 |<sub>Docker</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>docker</sub>|
@@ -38,62 +37,53 @@ RBA entities are variables and allowed values that describe our business and pur
 
 |<sub>Full Text</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Value</sub>|
 | ------ | ------ | ------ | ------ |
-|<sub>Central US</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>uscent1</sub>|
-|<sub>East US</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>useast1</sub>|
-|<sub>East US 2</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>useast2</sub>|
-|<sub>North Central US</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>usnoce1</sub>|
-|<sub>South Central US</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>ussoce1</sub>|
-|<sub>West US 2</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>uswest2</sub>|
-|<sub>West Central US</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>uswece1</sub>|
-|<sub>West US</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>uswest1</sub>|
-|<sub>US DoD Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>docent1</sub>|
-|<sub>US DoD East</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>doeast1</sub>|
-|<sub>US Gov Arizona</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>gvariz1</sub>|
-|<sub>US Gov Virginia</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>gvvirg1</sub>|
-|<sub>US Gov Texas</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>gvtexs1</sub>|
-|<sub>US Gov Iowa</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>gviowa1</sub>|
-|<sub>US Sec East</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>sceast1</sub>|
-|<sub>US Sec West</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>scwest1</sub>|
-|<sub>Canada Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>cacent1</sub>|
-|<sub>Canada East</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>caeast1</sub>|
-|<sub>Brazil South</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>brsout1</sub>|
-|<sub>Mexico Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>mxcent1</sub>|
-|<sub>North Europe</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>eunort1</sub>|
-|<sub>West Europe</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>euwest1</sub>|
-|<sub>France Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>frcent1</sub>|
-|<sub>France South</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>frsout1</sub>|
-|<sub>UK South</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>gbsout1</sub>|
-|<sub>UK West</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>gbwest1</sub>|
-|<sub>Germany North</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>denort1</sub>|
-|<sub>Germany West Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>dewece1</sub>|
-|<sub>Germany Northeast</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>denoea1</sub>|
-|<sub>Germany Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>decent1</sub>|
-|<sub>Switzerland North</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>chnort1</sub>|
-|<sub>Switzerland West</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>chwest1</sub>|
-|<sub>Norway West</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>nowest1</sub>|
-|<sub>â€‹Norway East</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>noeast1</sub>|
-|<sub>Spain Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>escent1</sub>|
-|<sub>East Asia</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>aseast1</sub>|
-|<sub>Southeast Asia</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>assoea1</sub>|
-|<sub>Australia Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>aucent1</sub>|
-|<sub>Australia Central 2</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>aucent2</sub>|
-|<sub>Australia East</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>aueast1</sub>|
-|<sub>Australia Southeast</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>ausoea1</sub>|
-|<sub>China East 2</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>cneast1</sub>|
-|<sub>China North 2</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>cnnort1</sub>|
-|<sub>Central India</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>incent1</sub>|
-|<sub>West India</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>inwest1</sub>|
-|<sub>South India</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>insout1</sub>|
-|<sub>Japan East</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>jpeast1</sub>|
-|<sub>Japan West</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>jpwest1</sub>|
-|<sub>Korea Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>krcent1</sub>|
-|<sub>Korea South</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>krsout1</sub>|
-|<sub>South Africa North</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>zanort1</sub>|
-|<sub>South Africa West</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>zawest1</sub>|
-|<sub>Israel Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>ilcent1</sub>|
-|<sub>UAE Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>aecent1</sub>|
-|<sub>UAE North</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>aenort1</sub>|
-|<sub>Qatar Central</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>qacent1</sub>|
+|<sub>East Asia</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>eastasia</sub>|
+|<sub>Southeast Asia</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>southeastasia</sub>|
+|<sub>Central US</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>centralus</sub>|
+|<sub>East US</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>eastus</sub>|
+|<sub>East US 2</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>eastus2</sub>|
+|<sub>West US</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>westus</sub>|
+|<sub>North Central US</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>northcentralus</sub>|
+|<sub>South Central US</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>southcentralus</sub>|
+|<sub>North Europe</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>northeurope</sub>|
+|<sub>West Europe</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>westeurope</sub>|
+|<sub>Japan West</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>japanwest</sub>|
+|<sub>Japan East</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>japaneast</sub>|
+|<sub>Brazil South</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>brazilsouth</sub>|
+|<sub>Australia East</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>australiaeast</sub>|
+|<sub>Australia Southeast</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>australiasoutheast</sub>|
+|<sub>South India</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>southindia</sub>|
+|<sub>Central India</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>centralindia</sub>|
+|<sub>West India</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>westindia</sub>|
+|<sub>Canada Central</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>canadacentral</sub>|
+|<sub>Canada East</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>canadaeast</sub>|
+|<sub>UK South</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>uksouth</sub>|
+|<sub>UK West</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>ukwest</sub>|
+|<sub>West Central US</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>westcentralus</sub>|
+|<sub>West US 2</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>westus2</sub>|
+|<sub>Korea Central</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>koreacentral</sub>|
+|<sub>Korea South</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>koreasouth</sub>|
+|<sub>France Central</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>francecentral</sub>|
+|<sub>France South</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>francesouth</sub>|
+|<sub>Australia Central</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>australiacentral</sub>|
+|<sub>Australia Central 2</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>australiacentral2</sub>|
+|<sub>UAE Central</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>uaecentral</sub>|
+|<sub>UAE North</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>uaenorth</sub>|
+|<sub>South Africa North</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>southafricanorth</sub>|
+|<sub>South Africa West</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>southafricawest</sub>|
+|<sub>Switzerland North</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>switzerlandnorth</sub>|
+|<sub>Switzerland West</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>switzerlandwest</sub>|
+|<sub>Germany North</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>germanynorth</sub>|
+|<sub>Germany West Central</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>germanywestcentral</sub>|
+|<sub>Norway West</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>norwaywest</sub>|
+|<sub>Norway East</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>norwayeast</sub>|
+|<sub>Brazil Southeast</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>brazilsoutheast</sub>|
+|<sub>US Government Virginia</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usgovvirginia</sub>|
+|<sub>US Government Iowa</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usgoviowa</sub>|
+|<sub>US DoD East</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usdodeast</sub>|
+|<sub>US DoD Central</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usdodcentral</sub>|
+|<sub>US Government Texas</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usgovtexas</sub>|
+|<sub>US Government Arizona</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usgovarizona</sub>|
 
 ## rba.businessUnit
 
@@ -121,7 +111,16 @@ RBA entities are variables and allowed values that describe our business and pur
 |<sub>Cloud Build Government</sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>st103</sub>|
 |<sub>Cloud Build Insurance</sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>st104</sub>|
 |<sub>Cloud Build Enterprise</sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>st106</sub>|
+|<sub>Cloud Build Back Office</sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>st107</sub>|
+|<sub>Cloud Build Data Engineering </sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>st108</sub>|
+|<sub>Cloud Build Data Science</sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>st109</sub>|
+|<sub>Cloud Build HPCC Platform</sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>st110</sub>|
+|<sub>Cloud Build HPCC Systems</sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>st111</sub>|
+|<sub>Cloud Build InfoSec</sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>st112</sub>|
+|<sub>Cloud Build Infrastructure</sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>st113</sub>|
+|<sub>Cloud Build Linking</sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>st114</sub>|
 |<sub>Ola Osunkoya Cost Center</sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>ct674</sub>|
+|<sub>ID Analytics</sub>|<sub>global</sub>|<sub>az[5]</sub>|<sub>ic301</sub>|
 
 ## rba.environment
 
@@ -160,7 +159,11 @@ RBA entities are variables and allowed values that describe our business and pur
 |<sub>Accurint Delivery Platform</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>accurint</sub>|
 |<sub>Bridger Delivery Platform</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>bridger</sub>|
 |<sub>Iyetek Delivery Platform</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>iyetek</sub>|
+|<sub>Coplogic Solutions Delivery Platform</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>coplogic</sub>|
 |<sub>Core Services Platform</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>core</sub>|
+|<sub>HPCC Systems</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>hpcc</sub>|
+|<sub>Core Networking</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>networks</sub>|
+|<sub>DataTools Arch Angel</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>archangel</sub>|
 
 ## rba.productName
 
@@ -169,7 +172,15 @@ RBA entities are variables and allowed values that describe our business and pur
 |<sub>Accurint Web Product</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>accurintweb</sub>|
 |<sub>Accurint API Product</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>accurintapi</sub>|
 |<sub>Accurint for Law Enforcement</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>accurintle</sub>|
+|<sub>HashiCorp Vault</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>hashicorpvault</sub>|
+|<sub>Terraform</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>terraform</sub>|
 |<sub>Terraform Enterprise</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>tfe</sub>|
+|<sub>HPCC Systems</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>hpcc</sub>|
+|<sub>Azure Budget Alerts</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>budgetalerts</sub>|
+|<sub>ID Analytics MapReduce</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>idamapr</sub>|
+|<sub>Azure Express Route</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>expressroute</sub>|
+|<sub>Public Records Arch Angel</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>prarchangel</sub>|
+|<sub>Coplogic SFTP</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>coplogicsftp</sub>|
 
 ## rba.resourceGroupType
 
@@ -210,13 +221,17 @@ RBA entities are variables and allowed values that describe our business and pur
 | ------ | ------ | ------ | ------ |
 |<sub>Production</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>production</sub>|
 |<sub>Non-Production</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>nonprod</sub>|
+|<sub>Development</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>dev</sub>|
 
 ## rba.tagName
 
 |<sub>Full Text</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Value</sub>|
 | ------ | ------ | ------ | ------ |
-|<sub>Environment</sub>|<sub>global</sub>|<sub>a-z[24]</sub>|<sub>environment</sub>|
-|<sub>Business Unit</sub>|<sub>global</sub>|<sub>a-z[24]</sub>|<sub>business-unit</sub>|
+|<sub>environment</sub>|<sub>global</sub>|<sub>a-z[24]</sub>|<sub>environment</sub>|
+|<sub>businessUnit</sub>|<sub>global</sub>|<sub>a-z[24]</sub>|<sub>business-unit</sub>|
+|<sub>market</sub>|<sub>global</sub>|<sub>a-z[24]</sub>|<sub>market</sub>|
+|<sub>productName</sub>|<sub>global</sub>|<sub>a-z[24]</sub>|<sub>product</sub>|
+|<sub>costCenter</sub>|<sub>global</sub>|<sub>a-z[24]</sub>|<sub>cost-center</sub>|
 
 ## rba.virtualNetGwType
 
@@ -284,6 +299,8 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
 |<sub>locks</sub>|<sub>scope of assignment</sub>|<sub>a-9[90]</sub>|<sub></sub>|<sub></sub>|
+|<sub>policyAssignments</sub>|<sub>scope of assignment</sub>|<sub>a-9[64]</sub>|<sub></sub>|<sub></sub>|
+|<sub>policyDefinitions</sub>|<sub>scope of definition</sub>|<sub>a-9[64]</sub>|<sub></sub>|<sub></sub>|
 |<sub>policySetDefinitions</sub>|<sub>scope of definition</sub>|<sub>a-9[255]</sub>|<sub></sub>|<sub></sub>|
 |<sub>policyassignments</sub>|<sub>scope of assignment</sub>|<sub>a-9[255]</sub>|<sub></sub>|<sub></sub>|
 |<sub>policydefinitions</sub>|<sub>scope of definition</sub>|<sub>a-9[255]</sub>|<sub></sub>|<sub></sub>|
@@ -392,7 +409,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
-|<sub>managedClusters</sub>|<sub>resource group</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
+|<sub>managedClusters</sub>|<sub>resource group</sub>|<sub>a-9[63]</sub>|<sub>aks-<[rba.resourceGroupType[12]](README.md#rbaresourceGroupType)>-<[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)></sub>|<sub>aks-app-accurintweb-dev-useast2</sub>|
 |<sub>openShiftManagedClusters</sub>|<sub>resource group</sub>|<sub>a9[30]</sub>|<sub></sub>|<sub></sub>|
 
 ## azure.CustomProviders
@@ -442,7 +459,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
-|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>-postgres##</sub>|<sub>tfe-prod-postgres01</sub>|
+|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>##</sub>|<sub>tfe-prod01</sub>|
 |<sub>databases</sub>|<sub>servers</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
 |<sub>firewallRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualNetworkRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
@@ -559,6 +576,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
+|<sub>actionGroups</sub>|<sub>resource group</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
 |<sub>components</sub>|<sub>resource group</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
 
 ## azure.IoTCentral
@@ -640,16 +658,17 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
-|<sub>applicationGateways</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-<[rba.azureRegion[7]](README.md#rbaazureRegion)>-appgateway<##></sub>|<sub>accurint-production-useast2-appgateway01</sub>|
+|<sub>applicationGateways</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)>-appgateway<##></sub>|<sub>accurint-production-useast2-appgateway01</sub>|
 |<sub>applicationSecurityGroups</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.serviceName[12]](README.md#rbaserviceName)>-app-security-group<##></sub>|<sub>webesp-app-security-group01</sub>|
-|<sub>azureFirewalls</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-<[rba.azureRegion[7]](README.md#rbaazureRegion)>-firewall<##></sub>|<sub>accurint-production-useast2-firewall01</sub>|
+|<sub>azureFirewalls</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)>-firewall<##></sub>|<sub>accurint-production-useast2-firewall01</sub>|
 |<sub>bastionHosts</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-bastion<##></sub>|<sub>accurint-production-useast2-bastion01</sub>|
 |<sub>connections</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-to-<[rba.onPrem[16]](README.md#rbaonPrem)>-connection</sub>|<sub>accurint-production-to-bocab1-connection</sub>|
 |<sub>dnsZones</sub>|<sub>resource group</sub>|<sub>a-9[63]</sub>|<sub><[rba.serviceName[12]](README.md#rbaserviceName)>.<[rba.productName[16]](README.md#rbaproductName)>.<[rba.productGroup[12]](README.md#rbaproductGroup)>.<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>.<[rba.market[2]](README.md#rbamarket)>.lnrisk.io</sub>|<sub>mysql01.accurintle.accurint.prod.us.lnrisk.io</sub>|
 |<sub>expressRouteCircuits</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-expressroute-circuit<##></sub>|<sub>accurint-production-useast2-expressroute-circuit01</sub>|
-|<sub>firewallPolicies</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-<[rba.azureRegion[7]](README.md#rbaazureRegion)>-waf-policy<##></sub>|<sub>accurint-production-useast2-waf-policy01</sub>|
+|<sub>firewallPolicies</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)>-waf-policy<##></sub>|<sub>accurint-production-useast2-waf-policy01</sub>|
 |<sub>ruleGroups</sub>|<sub>firewall policy</sub>|<sub>a-9[80]</sub>|<sub><rule_group_purpose[64]>-rule-group</sub>|<sub>permitwebservers-rule-group</sub>|
 |<sub>frontDoors</sub>|<sub>global</sub>|<sub>a-9[64]</sub>|<sub></sub>|<sub></sub>|
+|<sub>frontdoorWebApplicationFirewallPolicies</sub>|<sub>resource group</sub>|<sub>a9[128]</sub>|<sub></sub>|<sub></sub>|
 |<sub>loadBalancers</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.serviceName[12]](README.md#rbaserviceName)>-<[rba.environment[7]](README.md#rbaenvironment)>-loadbalancer<##></sub>|<sub>webesp-prod-loadbalancer01</sub>|
 |<sub>inboundNatRules</sub>|<sub>load balancer</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>localNetworkGateways</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.onPrem[16]](README.md#rbaonPrem)>-<[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-local-network-gateway</sub>|<sub>bocab1-accurint-nonprod-local-network-gateway</sub>|
@@ -668,7 +687,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 |<sub>serviceEndpointPolicies</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>trafficmanagerprofiles</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualNetworkGateways</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
-|<sub>virtualNetworks</sub>|<sub>resource group</sub>|<sub>a-9[64]</sub>|<sub><[rba.resourceGroupType[12]](README.md#rbaresourceGroupType)>-<[rba.productName[16]](README.md#rbaproductName)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-<[rba.azureRegion[7]](README.md#rbaazureRegion)>-vnet</sub>|<sub>app-accurint-nonprod-useast2-vnet</sub>|
+|<sub>virtualNetworks</sub>|<sub>resource group</sub>|<sub>a-9[64]</sub>|<sub><[rba.resourceGroupType[12]](README.md#rbaresourceGroupType)>-<[rba.productName[16]](README.md#rbaproductName)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)>-vnet</sub>|<sub>app-accurint-nonprod-useast2-vnet</sub>|
 |<sub>virtualNetworkPeerings</sub>|<sub>virtual network</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualWans</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>subnets</sub>|<sub>virtual network</sub>|<sub>a-9[80]</sub>|<sub><[rba.subnetType[24]](README.md#rbasubnetType)>-subnet<##></sub>|<sub>private-subnet01</sub>|
@@ -738,8 +757,8 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
-|<sub>deployments</sub>|<sub>resource group</sub>|<sub>a-9[64]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-<[rba.azureRegion[7]](README.md#rbaazureRegion)>-deployment<###></sub>|<sub>accurint-nonprod-useast2-deployment001</sub>|
-|<sub>resourcegroups</sub>|<sub>subscription</sub>|<sub>a-9[90]</sub>|<sub><[rba.resourceGroupType[12]](README.md#rbaresourceGroupType)>-<[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)></sub>|<sub>app-accurintweb-dev</sub>|
+|<sub>deployments</sub>|<sub>resource group</sub>|<sub>a-9[64]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)>-deployment<###></sub>|<sub>accurint-nonprod-useast2-deployment001</sub>|
+|<sub>resourcegroups</sub>|<sub>subscription</sub>|<sub>a-9[90]</sub>|<sub><[rba.resourceGroupType[12]](README.md#rbaresourceGroupType)>-<[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)></sub>|<sub>app-accurintweb-dev-useast2</sub>|
 |<sub>tagNames</sub>|<sub>resource</sub>|<sub>a-9[512]</sub>|<sub><[rba.tagName[24]](README.md#rbatagName)></sub>|<sub>environment</sub>|
 |<sub>tagValues</sub>|<sub>tag name</sub>|<sub>a-9[256]</sub>|<sub><rba.* value></sub>|<sub>production</sub>|
 
@@ -795,7 +814,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 | ------ | ------ | ------ | ------ | ------ |
 |<sub>blob</sub>|<sub>container</sub>|<sub>a-9[1024]</sub>|<sub></sub>|<sub></sub>|
 |<sub>queue</sub>|<sub>storage account</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
-|<sub>storageAccounts</sub>|<sub>global</sub>|<sub>a9[24]</sub>|<sub></sub>|<sub></sub>|
+|<sub>storageAccounts</sub>|<sub>global</sub>|<sub>a9[24]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)><[rba.subscriptionType[12]](README.md#rbasubscriptionType)></sub>|<sub>accurintproduction</sub>|
 |<sub>blobServices</sub>|<sub>storage account</sub>|<sub>default[63]</sub>|<sub></sub>|<sub></sub>|
 |<sub>containers</sub>|<sub>storage account</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
 |<sub>fileServices</sub>|<sub>storage account</sub>|<sub>default[63]</sub>|<sub></sub>|<sub></sub>|
@@ -833,6 +852,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
+|<sub>certificates</sub>|<sub>resource group</sub>|<sub>can't use:<br>`/` <br><br>can't end with space or period.[260]</sub>|<sub></sub>|<sub></sub>|
 |<sub>serverfarms</sub>|<sub>resource group</sub>|<sub>a-9[40]</sub>|<sub></sub>|<sub></sub>|
 |<sub>sites</sub>|<sub>global</sub>|<sub>a-9[60]</sub>|<sub></sub>|<sub></sub>|
 |<sub>slots</sub>|<sub>site</sub>|<sub>a-9[59]</sub>|<sub></sub>|<sub></sub>|
