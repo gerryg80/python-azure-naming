@@ -43,6 +43,7 @@ environment:
     uat: 'UAT (CT)'
     prod: 'Production'
     dr: 'Disaster Recovery'
+    greenfield: 'Green Field'
 onPrem:
   category: Custom
   entity: onPrem
@@ -209,6 +210,7 @@ productName:
     expressroute: 'Azure Express Route'
     prarchangel: 'Public Records Arch Angel'
     coplogicsftp: 'Coplogic SFTP'
+    greenfield: 'Green Field'
 tagName:
   category: Custom
   entity: tagName
