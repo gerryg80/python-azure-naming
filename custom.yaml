@@ -43,7 +43,6 @@ environment:
     uat: 'UAT (CT)'
     prod: 'Production'
     dr: 'Disaster Recovery'
-    greenfield: 'Green Field'
 onPrem:
   category: Custom
   entity: onPrem
