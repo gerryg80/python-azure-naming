@@ -431,23 +431,23 @@
             "example": ""
         }
     ],
-    "policyassignments": [
+    "policyAssignments": [
         {
             "category": "Authorization",
-            "entity": "policyassignments",
+            "entity": "policyAssignments",
             "scope": "scope of assignment",
-            "maxlength": "255",
+            "maxlength": "64",
             "rule": "a-9",
             "convention": "",
             "example": ""
         }
     ],
-    "policydefinitions": [
+    "policyDefinitions": [
         {
             "category": "Authorization",
-            "entity": "policydefinitions",
+            "entity": "policyDefinitions",
             "scope": "scope of definition",
-            "maxlength": "255",
+            "maxlength": "64",
             "rule": "a-9",
             "convention": "",
             "example": ""
@@ -993,8 +993,8 @@
             "scope": "resource group",
             "maxlength": "63",
             "rule": "a-9",
-            "convention": "",
-            "example": ""
+            "convention": "aks-<rba.resourceGroupType>-<rba.productName>-<rba.environment>-<rba.azureRegion>",
+            "example": "aks-app-accurintweb-dev-useast2"
         }
     ],
     "openShiftManagedClusters": [
@@ -1840,6 +1840,17 @@
             "example": ""
         }
     ],
+    "actionGroups": [
+        {
+            "category": "Insights",
+            "entity": "actionGroups",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
     "components": [
         {
             "category": "Insights",
@@ -2252,6 +2263,17 @@
             "scope": "global",
             "maxlength": "64",
             "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "frontdoorWebApplicationFirewallPolicies": [
+        {
+            "category": "Network",
+            "entity": "frontdoorWebApplicationFirewallPolicies",
+            "scope": "resource group",
+            "maxlength": "128",
+            "rule": "a9",
             "convention": "",
             "example": ""
         }
@@ -2670,8 +2692,8 @@
             "scope": "subscription",
             "maxlength": "90",
             "rule": "a-9",
-            "convention": "<rba.resourceGroupType>-<rba.productName>-<rba.environment>",
-            "example": "app-accurintweb-dev"
+            "convention": "<rba.resourceGroupType>-<rba.productName>-<rba.environment>-<rba.azureRegion>",
+            "example": "app-accurintweb-dev-useast2"
         }
     ],
     "tagNames": [
@@ -2694,6 +2716,17 @@
             "rule": "a-9",
             "convention": "<rba.* value>",
             "example": "production"
+        }
+    ],
+    "templateSpecs": [
+        {
+            "category": "Resources",
+            "entity": "templateSpecs",
+            "scope": "resource group",
+            "maxlength": "90",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
         }
     ],
     "namespaces/migrationConfigurations": [
@@ -3070,6 +3103,17 @@
             "example": ""
         }
     ],
+    "certificates": [
+        {
+            "category": "Web",
+            "entity": "certificates",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "can't use:<br>`/` <br><br>can't end with space or period.",
+            "convention": "",
+            "example": ""
+        }
+    ],
     "serverfarms": [
         {
             "category": "Web",
@@ -3098,6 +3142,28 @@
             "entity": "slots",
             "scope": "site",
             "maxlength": "59",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "policyassignments": [
+        {
+            "category": "Authorization",
+            "entity": "policyassignments",
+            "scope": "scope of assignment",
+            "maxlength": "255",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "policydefinitions": [
+        {
+            "category": "Authorization",
+            "entity": "policydefinitions",
+            "scope": "scope of definition",
+            "maxlength": "255",
             "rule": "a-9",
             "convention": "",
             "example": ""
