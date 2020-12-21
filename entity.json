@@ -2879,8 +2879,8 @@
             "scope": "global",
             "maxlength": "24",
             "rule": "a9",
-            "convention": "<rba.productGroup><rba.subscriptionType>",
-            "example": "accurintproduction"
+            "convention": "",
+            "example": ""
         }
     ],
     "storageAccounts/blobServices": [
