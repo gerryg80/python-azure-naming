@@ -181,6 +181,8 @@ RBA entities are variables and allowed values that describe our business and pur
 |<sub>Azure Express Route</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>expressroute</sub>|
 |<sub>Public Records Arch Angel</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>prarchangel</sub>|
 |<sub>Coplogic SFTP</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>coplogicsftp</sub>|
+|<sub>Green Field</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>greenfield</sub>|
+|<sub>Azure Access Requests</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>access</sub>|
 
 ## rba.resourceGroupType
 
@@ -761,6 +763,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 |<sub>resourcegroups</sub>|<sub>subscription</sub>|<sub>a-9[90]</sub>|<sub><[rba.resourceGroupType[12]](README.md#rbaresourceGroupType)>-<[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)></sub>|<sub>app-accurintweb-dev-useast2</sub>|
 |<sub>tagNames</sub>|<sub>resource</sub>|<sub>a-9[512]</sub>|<sub><[rba.tagName[24]](README.md#rbatagName)></sub>|<sub>environment</sub>|
 |<sub>tagValues</sub>|<sub>tag name</sub>|<sub>a-9[256]</sub>|<sub><rba.* value></sub>|<sub>production</sub>|
+|<sub>templateSpecs</sub>|<sub>resource group</sub>|<sub>a-9[90]</sub>|<sub></sub>|<sub></sub>|
 
 ## azure.ServiceBus
 
