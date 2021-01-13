@@ -148,6 +148,7 @@ subnetType:
     iaas-outbound: 'IaaS Outbound'
     iaas-private: 'IaaS Private'
     AzureBastionSubnet: 'Azure Bastion Service'
+    sandbox: 'Sandbox'
 virtualNetGwType:
   category: Custom
   entity: virtualNetworkGatewayType
