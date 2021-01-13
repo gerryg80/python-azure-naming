@@ -190,7 +190,8 @@
             "core": "Core Services Platform",
             "hpcc": "HPCC Systems",
             "networks": "Core Networking",
-            "archangel": "DataTools Arch Angel"
+            "archangel": "DataTools Arch Angel",
+            "arportal": "Acquisition & Retention Delivery Platform"
         }
     },
     "applicationName": {
@@ -236,7 +237,9 @@
             "prarchangel": "Public Records Arch Angel",
             "coplogicsftp": "Coplogic SFTP",
             "greenfield": "Green Field",
-            "access": "Azure Access Requests"
+            "access": "Azure Access Requests",
+            "arportalweb": "Acquisition Retention Portal Web",
+            "arportalapi": "Acquisition Retention Portal API"
         }
     },
     "tagName": {
