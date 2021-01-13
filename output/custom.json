@@ -162,7 +162,8 @@
             "iaas-public": "IaaS Public",
             "iaas-outbound": "IaaS Outbound",
             "iaas-private": "IaaS Private",
-            "AzureBastionSubnet": "Azure Bastion Service"
+            "AzureBastionSubnet": "Azure Bastion Service",
+            "sandbox": "Sandbox"
         }
     },
     "virtualNetGwType": {

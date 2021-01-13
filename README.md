@@ -220,6 +220,7 @@ RBA entities are variables and allowed values that describe our business and pur
 |<sub>IaaS Outbound</sub>|<sub>global</sub>|<sub>A-Z[24]</sub>|<sub>iaas-outbound</sub>|
 |<sub>IaaS Private</sub>|<sub>global</sub>|<sub>A-Z[24]</sub>|<sub>iaas-private</sub>|
 |<sub>Azure Bastion Service</sub>|<sub>global</sub>|<sub>A-Z[24]</sub>|<sub>AzureBastionSubnet</sub>|
+|<sub>Sandbox</sub>|<sub>global</sub>|<sub>A-Z[24]</sub>|<sub>sandbox</sub>|
 
 ## rba.subscriptionType
 
