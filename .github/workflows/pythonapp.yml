@@ -22,10 +22,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8 pytest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        if [ -f requirements.txt ]; then pip install -r bin/requirements.txt; fi
     - name: Create local changes
       run: |
-        python run.py
+        python bin/run.py
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
