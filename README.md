@@ -164,6 +164,7 @@ RBA entities are variables and allowed values that describe our business and pur
 |<sub>HPCC Systems</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>hpcc</sub>|
 |<sub>Core Networking</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>networks</sub>|
 |<sub>DataTools Arch Angel</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>archangel</sub>|
+|<sub>Acquisition & Retention Delivery Platform</sub>|<sub>global</sub>|<sub>az[12]</sub>|<sub>arportal</sub>|
 
 ## rba.productName
 
@@ -183,6 +184,8 @@ RBA entities are variables and allowed values that describe our business and pur
 |<sub>Coplogic SFTP</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>coplogicsftp</sub>|
 |<sub>Green Field</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>greenfield</sub>|
 |<sub>Azure Access Requests</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>access</sub>|
+|<sub>Acquisition Retention Portal Web</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>arportalweb</sub>|
+|<sub>Acquisition Retention Portal API</sub>|<sub>global</sub>|<sub>az[16]</sub>|<sub>arportalapi</sub>|
 
 ## rba.resourceGroupType
 
