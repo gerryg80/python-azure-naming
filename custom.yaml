@@ -131,7 +131,7 @@ subnetType:
   entity: subnetType
   scope: global
   maxlength: '24'
-  rule: 'a-z'
+  rule: 'A-Z'
   allowed_values:
     azure-appgateway: 'Application Gateway'
     azure-vpngateway: 'VPN Gateway'

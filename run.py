@@ -348,10 +348,10 @@ def main():
     entities = importEntity(url,entity_yaml)
     custom = importCustom(custom_yaml)
 
-    with open('entity.json', 'w') as outfile:
+    with open('output/entity.json', 'w') as outfile:
         json.dump(entities, outfile, indent=4)
 
-    with open('custom.json', 'w') as outfile:
+    with open('output/custom.json', 'w') as outfile:
         json.dump(custom, outfile, indent=4)
 
     exportMarkdown('RBA Naming Conventions for Azure',custom,entities)
