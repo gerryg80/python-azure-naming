@@ -33,13 +33,14 @@ environment:
   category: Custom
   entity: environment
   scope: global
-  maxlength: '7'
+  maxlength: '10'
   rule: 'az'
   allowed_values:
     sandbox: 'Sandbox'
     dev: 'Development'
     test: 'Testing (QA CERT)'
     staging: 'Staging'
+    greenfield: 'Greenfield'
     uat: 'UAT (CT)'
     prod: 'Production'
     dr: 'Disaster Recovery'
