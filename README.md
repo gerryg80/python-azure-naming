@@ -126,13 +126,14 @@ RBA entities are variables and allowed values that describe our business and pur
 
 |<sub>Full Text</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Value</sub>|
 | ------ | ------ | ------ | ------ |
-|<sub>Sandbox</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>sandbox</sub>|
-|<sub>Development</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>dev</sub>|
-|<sub>Testing (QA CERT)</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>test</sub>|
-|<sub>Staging</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>staging</sub>|
-|<sub>UAT (CT)</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>uat</sub>|
-|<sub>Production</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>prod</sub>|
-|<sub>Disaster Recovery</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>dr</sub>|
+|<sub>Sandbox</sub>|<sub>global</sub>|<sub>az[10]</sub>|<sub>sandbox</sub>|
+|<sub>Development</sub>|<sub>global</sub>|<sub>az[10]</sub>|<sub>dev</sub>|
+|<sub>Testing (QA CERT)</sub>|<sub>global</sub>|<sub>az[10]</sub>|<sub>test</sub>|
+|<sub>Staging</sub>|<sub>global</sub>|<sub>az[10]</sub>|<sub>staging</sub>|
+|<sub>Greenfield</sub>|<sub>global</sub>|<sub>az[10]</sub>|<sub>greenfield</sub>|
+|<sub>UAT (CT)</sub>|<sub>global</sub>|<sub>az[10]</sub>|<sub>uat</sub>|
+|<sub>Production</sub>|<sub>global</sub>|<sub>az[10]</sub>|<sub>prod</sub>|
+|<sub>Disaster Recovery</sub>|<sub>global</sub>|<sub>az[10]</sub>|<sub>dr</sub>|
 
 ## rba.market
 
@@ -416,7 +417,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
-|<sub>managedClusters</sub>|<sub>resource group</sub>|<sub>a-9[63]</sub>|<sub>aks-<[rba.resourceGroupType[12]](README.md#rbaresourceGroupType)>-<[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)></sub>|<sub>aks-app-accurintweb-dev-useast2</sub>|
+|<sub>managedClusters</sub>|<sub>resource group</sub>|<sub>a-9[63]</sub>|<sub>aks-<[rba.resourceGroupType[12]](README.md#rbaresourceGroupType)>-<[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[10]](README.md#rbaenvironment)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)></sub>|<sub>aks-app-accurintweb-dev-useast2</sub>|
 |<sub>openShiftManagedClusters</sub>|<sub>resource group</sub>|<sub>a9[30]</sub>|<sub></sub>|<sub></sub>|
 
 ## azure.CustomProviders
@@ -448,7 +449,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
-|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>-mariadb##</sub>|<sub>tfe-prod-mariadb01</sub>|
+|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[10]](README.md#rbaenvironment)>-mariadb##</sub>|<sub>tfe-prod-mariadb01</sub>|
 |<sub>databases</sub>|<sub>servers</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
 |<sub>firewallRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualNetworkRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
@@ -457,7 +458,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
-|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>-mysql##</sub>|<sub>tfe-prod-mysql01</sub>|
+|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[10]](README.md#rbaenvironment)>-mysql##</sub>|<sub>tfe-prod-mysql01</sub>|
 |<sub>databases</sub>|<sub>servers</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
 |<sub>firewallRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualNetworkRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
@@ -466,7 +467,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
-|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>##</sub>|<sub>tfe-prod01</sub>|
+|<sub>servers</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[10]](README.md#rbaenvironment)>##</sub>|<sub>tfe-prod01</sub>|
 |<sub>databases</sub>|<sub>servers</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
 |<sub>firewallRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualNetworkRules</sub>|<sub>servers</sub>|<sub>a-9[128]</sub>|<sub></sub>|<sub></sub>|
@@ -676,16 +677,16 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 |<sub>ruleGroups</sub>|<sub>firewall policy</sub>|<sub>a-9[80]</sub>|<sub><rule_group_purpose[64]>-rule-group</sub>|<sub>permitwebservers-rule-group</sub>|
 |<sub>frontDoors</sub>|<sub>global</sub>|<sub>a-9[64]</sub>|<sub></sub>|<sub></sub>|
 |<sub>frontdoorWebApplicationFirewallPolicies</sub>|<sub>resource group</sub>|<sub>a9[128]</sub>|<sub></sub>|<sub></sub>|
-|<sub>loadBalancers</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.serviceName[12]](README.md#rbaserviceName)>-<[rba.environment[7]](README.md#rbaenvironment)>-loadbalancer<##></sub>|<sub>webesp-prod-loadbalancer01</sub>|
+|<sub>loadBalancers</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.serviceName[12]](README.md#rbaserviceName)>-<[rba.environment[10]](README.md#rbaenvironment)>-loadbalancer<##></sub>|<sub>webesp-prod-loadbalancer01</sub>|
 |<sub>inboundNatRules</sub>|<sub>load balancer</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>localNetworkGateways</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.onPrem[16]](README.md#rbaonPrem)>-<[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-local-network-gateway</sub>|<sub>bocab1-accurint-nonprod-local-network-gateway</sub>|
-|<sub>networkInterfaces</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.serviceName[12]](README.md#rbaserviceName)>-<[rba.applicationName[12]](README.md#rbaapplicationName)>-<[rba.environment[7]](README.md#rbaenvironment)>##-<[rba.subnetType[24]](README.md#rbasubnetType)>-interface##</sub>|<sub>tfe-mono-docker-prod01-iaas-public-interface01</sub>|
+|<sub>networkInterfaces</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.productName[16]](README.md#rbaproductName)>-<[rba.serviceName[12]](README.md#rbaserviceName)>-<[rba.applicationName[12]](README.md#rbaapplicationName)>-<[rba.environment[10]](README.md#rbaenvironment)>##-<[rba.subnetType[24]](README.md#rbasubnetType)>-interface##</sub>|<sub>tfe-mono-docker-prod01-iaas-public-interface01</sub>|
 |<sub>networkSecurityGroups</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.resourceGroupType[12]](README.md#rbaresourceGroupType)>-<[rba.productName[16]](README.md#rbaproductName)>-<[rba.subnetType[24]](README.md#rbasubnetType)>-security-group</sub>|<sub>app-accurintle-private-security-group</sub>|
 |<sub>securityRules</sub>|<sub>network security group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>networkWatchers</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>privateDnsZones</sub>|<sub>resource group</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualNetworkLinks</sub>|<sub>private DNS zone</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
-|<sub>publicIPAddresses</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.serviceName[12]](README.md#rbaserviceName)>-<[rba.environment[7]](README.md#rbaenvironment)>-publicip<##></sub>|<sub>webesp-prod-publicip01</sub>|
+|<sub>publicIPAddresses</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub><[rba.serviceName[12]](README.md#rbaserviceName)>-<[rba.environment[10]](README.md#rbaenvironment)>-publicip<##></sub>|<sub>webesp-prod-publicip01</sub>|
 |<sub>publicIPPrefixes</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>routeFilters</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>routeFilterRules</sub>|<sub>route filter</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
@@ -765,7 +766,7 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
 |<sub>deployments</sub>|<sub>resource group</sub>|<sub>a-9[64]</sub>|<sub><[rba.productGroup[12]](README.md#rbaproductGroup)>-<[rba.subscriptionType[12]](README.md#rbasubscriptionType)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)>-deployment<###></sub>|<sub>accurint-nonprod-useast2-deployment001</sub>|
-|<sub>resourcegroups</sub>|<sub>subscription</sub>|<sub>a-9[90]</sub>|<sub><[rba.resourceGroupType[12]](README.md#rbaresourceGroupType)>-<[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[7]](README.md#rbaenvironment)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)></sub>|<sub>app-accurintweb-dev-useast2</sub>|
+|<sub>resourcegroups</sub>|<sub>subscription</sub>|<sub>a-9[90]</sub>|<sub><[rba.resourceGroupType[12]](README.md#rbaresourceGroupType)>-<[rba.productName[16]](README.md#rbaproductName)>-<[rba.environment[10]](README.md#rbaenvironment)>-<[rba.azureRegion[20]](README.md#rbaazureRegion)></sub>|<sub>app-accurintweb-dev-useast2</sub>|
 |<sub>tagNames</sub>|<sub>resource</sub>|<sub>a-9[512]</sub>|<sub><[rba.tagName[24]](README.md#rbatagName)></sub>|<sub>environment</sub>|
 |<sub>tagValues</sub>|<sub>tag name</sub>|<sub>a-9[256]</sub>|<sub><rba.* value></sub>|<sub>production</sub>|
 |<sub>templateSpecs</sub>|<sub>resource group</sub>|<sub>a-9[90]</sub>|<sub></sub>|<sub></sub>|
