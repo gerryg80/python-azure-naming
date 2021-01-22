@@ -217,6 +217,7 @@ productName:
     access: 'Azure Access Requests'
     arportalweb: 'Acquisition Retention Portal Web'
     arportalapi: 'Acquisition Retention Portal API'
+    mbs: 'Master Backoffice System'
 tagName:
   category: Custom
   entity: tagName
